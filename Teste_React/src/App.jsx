@@ -1,12 +1,17 @@
-import './App.css'
+import './App.css';
 
 function App(){
-  return <div>
-    <TitleColorido/>
-    <TitleColorido/>
-    </div>
+  return (
+    <div className='container_big'>
+      <div className='container_small'>
+        <div className="quadrado"><img src="https://picsum.photos/200" alt="foto" /></div>
+        <div className="quadrado"><img src="https://picsum.photos/200" alt="foto" /></div>
+      </div>
+      <div className='container_small'>
+        <div className="quadrado"><img src="https://picsum.photos/200" alt="foto" /></div>
+        <div className="quadrado"><img src="https://picsum.photos/200" alt="foto" /></div>
+      </div>
+    </div>)
 }
-function TitleColorido(){
-  return <h1 className='titulo_colorido'>Titulo colorido</h1>
-}
-export default App
+
+export default App;
